@@ -1,0 +1,17 @@
+AN4 Training
+
+an4_clstk - Directory for the Mel Log Spectrum for training
+an4test_clstk - Directory for Mel Log Spectrum for the testing
+st_seg_train_ci - Directory for state segmenration for training
+st_seg_test_ci - Directory for state segmenration for testing
+read_mfc.py - File for reading the mel log spectrum features from the directory
+read_senid.py - File for reading the senone ids from the directory
+
+small_test.p - AN4 small input dataset for testing (1,000 samples)
+small_test_sen.p - AN4 small target dataset for testing (1,000 samples)
+
+small_train.p - AN4 small input dataset for training (1,000 samples)
+small_train_sen.p - AN4 small target dataset for training (1,000 samples)
+
+nnet.py - Neural Network Implementation. Execute as : python nnet.py -- Help on usage will be shown
+autoencoder.py - Autoencoder module which is used by the Neural Network for pre-training
